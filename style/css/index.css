@@ -87,6 +87,27 @@
     color: darkblue;
 }
 
+/* gallery */
+
+.gallery h1
+{
+    color: #FFD93D;
+}
+
+.gallery img
+{
+    width: 300px;
+    height: 340px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.gallery img:hover
+{
+    filter: grayscale(0.6);
+    transform: scale(1.1);
+}
+
 
 /* mobile responsive */
 @media only screen and (min-width: 0px) and (max-width: 500px)  {
