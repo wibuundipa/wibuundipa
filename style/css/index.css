@@ -12,5 +12,11 @@
     background-image: url("../../assets/img/amanesu.jpg");
     background-repeat: none;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
+}
+
+
+.tombol
+{
+    border-radius: 15px;
 }
