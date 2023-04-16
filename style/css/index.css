@@ -115,4 +115,11 @@
     {
         font-size: 10px;
     }
+
+    .gallery img
+    {
+        width: 80px;
+        height: 100px;
+        padding: 0;
+    }
 }
