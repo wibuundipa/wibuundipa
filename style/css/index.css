@@ -26,7 +26,7 @@
 /* jumbotron */
 .bg-cover
 {
-    background-image: url("../../assets/img/amanesu.jpg");
+    background-image: url("../../assets/img/amanesu2.png");
     background-repeat: none;
     background-size: cover;
     height: 80vh;
@@ -61,6 +61,7 @@
 .kartu
 {
     background-color: #FFD93D;
+    border-radius: 12px;
 }
 
 .col-4.border.border-danger.text-center i 
