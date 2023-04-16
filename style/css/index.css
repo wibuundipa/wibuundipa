@@ -1,4 +1,14 @@
 /* logo */
+
+.navbar
+{
+    background-color: #FFD93D;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
 .navbar img
 {
     width: 50px;
@@ -15,8 +25,19 @@
     height: 80vh;
 }
 
-
 .tombol
 {
     border-radius: 15px;
+}
+
+.tombol:first-child
+{
+    background-color: #FFD93D;
+    color: white;
+}
+
+.tombol:nth-child(2)
+{
+    border: 1px solid #FFD93D;
+    color: white;
 }
