@@ -8,12 +8,19 @@
     font-weight: bold;
 }
 
+#navbarNav > ul > li > a
+{
+    color: white;
+}
+#navbarNav > ul > li > a:hover
+{
+    color: darkblue;
+}
 
 .navbar img
 {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+    width: 30px;
+    margin-left: 20px;
 }
 
 /* jumbotron */
@@ -23,21 +30,67 @@
     background-repeat: none;
     background-size: cover;
     height: 80vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .tombol
 {
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .tombol:first-child
 {
     background-color: #FFD93D;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .tombol:nth-child(2)
 {
     border: 1px solid #FFD93D;
     color: white;
+}
+
+.texts-headlne h1
+{
+    font-weight: bold;
+}
+
+/* kartu kartu */
+
+.kartu
+{
+    background-color: #FFD93D;
+}
+
+.col-4.border.border-danger.text-center i 
+{
+    color: white;
+}
+
+/* content */
+.headline h1
+{
+    color: #FFD93D;
+    font-weight: bold;
+}
+
+.headline p
+{
+    text-align: justify;
+}
+
+.wibu
+{
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+/* mobile responsive */
+@media only screen and (min-width: 0px) and (max-width: 500px)  {
+    .texts-headlne p
+    {
+        font-size: 10px;
+    }
 }
