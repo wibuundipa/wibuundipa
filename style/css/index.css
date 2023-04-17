@@ -150,8 +150,7 @@
     transform: scale(1.1);
 }
 
-.footer
-{
+.footer {
     margin-top: 150px;
     height: 100px;
     background-color: #FFD93D;
@@ -168,6 +167,7 @@
         height: 100px;
         padding: 0;
     }
+
     .events img {
         width: 80px;
         height: 100px;
