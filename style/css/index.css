@@ -1,31 +1,27 @@
 /* logo */
 
-.navbar
-{
+.navbar {
     background-color: #FFD93D;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: bold;
 }
 
-#navbarNav > ul > li > a
-{
-    color: white;
+#navbarNav>ul>li>a {
+    color: black;
 }
-#navbarNav > ul > li > a:hover
-{
+
+#navbarNav>ul>li>a:hover {
     color: darkblue;
 }
 
-.navbar img
-{
+.navbar img {
     width: 30px;
     margin-left: 20px;
 }
 
 /* jumbotron */
-.bg-cover
-{
+.bg-cover {
     background-image: url("../../assets/img/amanesu2.png");
     background-repeat: none;
     background-size: cover;
@@ -33,138 +29,148 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.tombol
-{
+.tombol {
     border-radius: 30px;
 }
 
-.tombol:first-child
-{
+.tombol:first-child {
     background-color: #FFD93D;
     color: black;
     font-weight: bold;
 }
 
-.tombol:nth-child(2)
-{
+.tombol:nth-child(2) {
     border: 1px solid #FFD93D;
     color: white;
 }
 
-.texts-headlne h1
-{
+.texts-headlne h1 {
     font-weight: bold;
 }
 
 /* kartu kartu */
 
-.kartu
-{
+.kartu {
     background-color: #FFD93D;
     border-radius: 12px;
 }
 
-.col-4.border.border-danger.text-center i 
-{
+.col-4.border.border-danger.text-center i {
     color: white;
 }
 
 /* content */
-.headline h1
-{
+.headline h1 {
     color: #FFD93D;
     font-weight: bold;
 }
 
-.headline p
-{
+.headline p {
     text-align: justify;
 }
 
-.wibu
-{
+.wibu {
     font-weight: bold;
     color: darkblue;
 }
 
 /* gallery */
 
-.gallery h1
-{
+.gallery h1 {
     color: #FFD93D;
 }
 
-.gallery img
-{
+.gallery img {
     width: 300px;
     height: 340px;
     object-fit: cover;
     transition: 1s;
 }
 
-.gallery img:hover
-{
+.gallery img:hover {
     filter: grayscale(0.6);
     transform: scale(1.1);
 }
 
-.gallery p
-{
+.gallery p {
     text-align: justify;
 }
 
-.col-12.mt-3 button
-{
+.col-12.mt-3 button {
     background-color: #FFD93D;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     border-radius: 20px;
     transition: 1s;
-    
+
 }
 
-.col-12.mt-3 button:hover
-{
+.col-12.mt-3 button:hover {
     transform: scale(1.1);
 }
 
-.link 
-{
+.link {
     text-decoration: none;
     color: black;
-    
+
 }
 
-.link:hover
-{
+.link:hover {
     color: white;
     text-decoration: none;
-    
+
 }
-.links
-{
+
+.links {
     color: white;
     text-decoration: none;
-    
+
 }
-.links:hover
-{
+
+.links:hover {
     color: white;
     text-decoration: none;
-    
+
+}
+
+/* events */
+.events h1 {
+    color: #FFD93D;
+}
+
+.image-event img {
+    width: 300px;
+    height: 340px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.image-event img:hover {
+    filter: grayscale(0.6);
+    transform: scale(1.1);
+}
+
+.footer
+{
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFD93D;
 }
 
 /* mobile responsive */
-@media only screen and (min-width: 0px) and (max-width: 500px)  {
-    .texts-headlne p
-    {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .texts-headlne p {
         font-size: 10px;
     }
 
-    .gallery img
-    {
+    .gallery img {
         width: 80px;
         height: 100px;
         padding: 0;
+    }
+
+    .evetns p {
+        text-align: justify;
     }
 }
