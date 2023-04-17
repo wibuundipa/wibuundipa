@@ -108,6 +108,51 @@
     transform: scale(1.1);
 }
 
+.gallery p
+{
+    text-align: justify;
+}
+
+.col-12.mt-3 button
+{
+    background-color: #FFD93D;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+
+.col-12.mt-3 button:hover
+{
+    transform: scale(1.1);
+}
+
+.link 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.link:hover
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.links
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.links:hover
+{
+    color: white;
+    text-decoration: none;
+    
+}
 
 /* mobile responsive */
 @media only screen and (min-width: 0px) and (max-width: 500px)  {
